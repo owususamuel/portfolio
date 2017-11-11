@@ -6,7 +6,7 @@ html, body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(file:///home/owusu/Desktop/DevCircle/portfolio/img/apple2.jpg);
+    background-image: url("../img/apple2.jpg");
     background-size: cover;
     background-position: center;
 }

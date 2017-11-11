@@ -11,7 +11,7 @@ html, body {
 .banner {
     padding: 0;
     margin: 0;
-    background-image: url(file:///home/owusu/Desktop/DevCircle/portfolio/img/header.jpg);
+    background-image: url("../img/header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
