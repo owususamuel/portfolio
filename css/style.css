@@ -63,7 +63,7 @@ footer {
     position: relative;
     width: 100%;
     height: 70px;
-    background: url(/home/owusu/Desktop/myWebPage/surface.jpg) no-repeat;
+    background: url(../img/surface.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
