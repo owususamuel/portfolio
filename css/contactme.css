@@ -1,0 +1,90 @@
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(file:///home/owusu/Desktop/DevCircle/portfolio/img/apple2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.wrapper {
+    padding: 10%;
+    margin: 0;
+}
+h1 {
+    float: right;
+    margin: 1em 30%;
+    color: white;
+    font-weight: 100;
+    font-size: 26px;
+}
+span {
+    color: red;
+}
+form {
+    clear: right;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 400px;
+}
+input {
+    color: white;
+}
+input:not(:last-child) {
+    width: 400px;
+    border: solid 2px white;
+    line-height: 40px;
+    outline: none;
+    padding: 0 1em;
+    margin: 0.7em 0;
+    background-color:rgb(33, 33, 116);
+    border-radius: 5px;
+}
+textarea {
+    color: white;
+    width: 400px;
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 0 1em;
+    margin: 0.7em 0;
+    line-height: 40px;
+    border: solid 2px white;
+    background-color: rgb(33, 33, 116);
+    border-radius: 5px;
+}
+input:last-child {
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: solid white 2px;
+    border-radius: 100px;
+    padding: 0.75em 2em;
+    float: right;
+    margin-right: -1.6em;
+}
+
+input:last-child:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+#msg {
+    clear: right;
+    width: 100%;
+    bottom: 0px;
+    position: fixed;
+    text-align: center;
+    background-color: white;
+    padding: 1em;
+    border-top: solid 2px red;
+    color: red;
+    font-size: 20px;
+}

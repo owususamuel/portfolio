@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ContactMe</title>
+        <link rel="stylesheet" type="text/css" href="css/contactme.css">
+        <link rel="stylesheet" type="text/css" href="css/nav.css">
+        <script type="text/javascript">
+            function validateMe() {
+                var name = document.form1.name;
+                var email = document.form1.email;
+                var comment = document.form1.comment;
+                var msg = document.getElementById('msg')
+
+                if (name.value == "") {
+                    msg.innerHTML = "Name cannot be empty"
+                    alert("Name is required")
+                    name.focus()
+                    return false
+                } else {
+                    msg.innerHTML = ""
+                }
+
+                if (email.value == "") {
+                    msg.innerHTML = "Email cannot be empty"
+                    alert("Email is required")
+                    name.focus()
+                    return false
+                } else {
+                    msg.innerHTML = ""
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="nav">
+            <a class="open" href="#">&#9776 myLogo</a>
+            <a href="contactme.html"><p>Contact Me</p></a>
+            <a href="#"><p>Projects</p></a>
+            <a href="#"><p>Services</p></a>
+            <a href="about.html"><p>About</p></a>
+            <a href="mypage.html"><p>Home</p></a>
+        </div>
+            <div class="wrapper">
+            <h1>Contact <span>Me</span></h1>
+            <h1>Want to work with us?</h1>
+            <form name="form1" method="post" onsubmit="return validateMe()">
+                <input type="text" name="name" placeholder="Name"/>
+                <input type="eamil" name="email" placeholder="Email" />
+                <textarea name="comment" rows="3" placeholder="Message"></textarea>
+                <input type="submit" value="Get In Touch"/>
+            </form>
+        </div>
+            <span id="msg"></span>
+        </div>
+    </body>
+</html>

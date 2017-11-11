@@ -1,0 +1,87 @@
+html {
+    font-family: Helvetica, serif;
+}
+
+html, body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.banner {
+    padding: 0;
+    margin: 0;
+    background-image: url(file:///home/owusu/Desktop/DevCircle/portfolio/img/apple2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 60vh;
+    min-height: 500px;
+    text-align: center;
+}
+
+.banner h1 {
+    padding: 3em 0 0 0;
+    margin: 0;
+    clear: both;
+    font-size: 56px;
+}
+
+.banner p {
+    font-weight: 100;
+    padding: 0;
+    font-size: 20px;
+}
+
+.row {
+    width: 100%;
+}
+
+.row_cell {
+    width: 30%;
+    height: 400px;
+    display: inline-block;
+    text-align: center;
+    margin: 1em 1em;
+    box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.47);
+    overflow: hidden;
+}
+
+
+.mini-img {
+    max-width: 4em;
+}
+
+.row_cell p {
+    text-align: justify;
+    margin: 0px 8px;
+}
+
+footer {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background: url(/home/owusu/Desktop/myWebPage/surface.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer .social {
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+h5 {
+    float: left;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    font-size: 22px;
+    font-weight: bolder;
+    color: white;
+}
