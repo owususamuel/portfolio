@@ -1,4 +1,4 @@
-.nav {
+.navi {
     background-color: rgb(85, 95, 241);
     display: block;
     width: 100%;
@@ -6,31 +6,33 @@
     line-height: 35px;
     box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.377);
     position: fixed;
+    z-index: 1;
 }
 
-.nav a {
+.navi a {
     text-decoration: none;
     color: white;  
 }
 
-.nav a:active {
+.navi a:active {
     background-color: red;
     color: white;
 }
 
-.nav a:hover {
+.navi a:hover {
     color: red;
 }
 
 
-.nav .open {
+.navi .open {
+    font-family: 'Monoton','Bungee Shade', cursive;
     float: left;
     margin-top: 15px;
     font-size: 30px;
     margin-left: 1em;
 }
-.nav p {
-    padding: 0.8em 2.1em;
+.navi p{
+    padding: 0.8em 2em;
     margin-right: 2em;
     margin-top: 12px;  float: right;
     font-size: 14px;
@@ -40,8 +42,28 @@
     border-radius: 100px;
 }
 
-.nav p:hover {
+.navi p:hover {
     color: red;
+    border: solid red 1px;
+    background-color: white;
+}
+
+.resume {
+    padding: 0.8em 1.1em;
+    margin-right: 2em;
+    margin-top: 12px;  float: right;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+    background-color: green;
+    color: white;  
+    border: solid white 1px;
+    border-radius: 5px;
+}
+
+.resume:hover {
+    text-decoration: none;
+    color: black;
     border: solid red 1px;
     background-color: white;
 }
