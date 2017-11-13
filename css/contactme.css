@@ -10,6 +10,11 @@ html, body {
     background-size: cover;
     background-position: center;
 }
+.current {
+    color: red;
+    border: solid red 1px;
+    background-color: white;
+}
 
 
 .wrapper {
