@@ -14,6 +14,7 @@
                 var msg = document.getElementById('msg')
 
                 if (name.value == "") {
+                    msg.style.display = "block";
                     msg.innerHTML = "Name cannot be empty"
                     alert("Name is required")
                     name.focus()
@@ -23,6 +24,7 @@
                 }
 
                 if (email.value == "") {
+                    msg.style.display = "block";
                     msg.innerHTML = "Email cannot be empty"
                     alert("Email is required")
                     name.focus()
